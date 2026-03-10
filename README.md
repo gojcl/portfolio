@@ -21,6 +21,17 @@ The raw dataset contains 101,766 inpatient encounters from 130 US hospitals (199
 | `diabetic_clean.csv` | Cleaned dataset (69,569 patients) |
 
 
+## Requirements
+
+```
+pandas
+numpy
+matplotlib
+statsmodels
+scikit-learn
+```
+
+
 
 ## Reference
 

@@ -64,8 +64,8 @@ fig, axes = plt.subplots(1, 2, figsize=(12, 5))
 x = range(len(results_df))
 labels = [f"M{i+1}" for i in x]
 
-axes[0].plot(labels, results_df["AIC"], marker="o", label="AIC")
-axes[0].plot(labels, results_df["BIC"], marker="o", label="BIC")
+axes[0].scatter(labels, results_df["AIC"], label="AIC")
+axes[0].scatter(labels, results_df["BIC"], label="BIC")
 axes[0].set_title("AIC and BIC by Model")
 axes[0].set_xlabel("Model")
 axes[0].set_ylabel("Score (lower is better)")
